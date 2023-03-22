@@ -4,8 +4,8 @@ Design an IIR lowpass filter with the following parameters:
 2. edge of stopband	at omega_s = 0.24*pi  
 # Returns	DEN	and	NUM	automatically	for	any	given	order	N
 I used “my_filter” function to return the results of the filter automatically when I changed the parameter N in the main code
-'''sh
-    function [H,f] = my_filter(N,Omega_c,Td)
+```sh
+function [H,f] = my_filter(N,Omega_c,Td)
 
     angle = pi/2 + (0.5:1:N-0.5)*pi/N;
     s_p = Omega_c * exp(j*angle); % pole locations on s plane 
@@ -22,5 +22,5 @@ I used “my_filter” function to return the results of the filter automaticall
 
     [H,f] = freqz(NUM, DEN, 1024);
 
-    end
-'''
+end
+```
