@@ -24,3 +24,5 @@ function [H,f] = my_filter(N,Omega_c,Td)
 
 end
 ```
+### 1. When omega_c = [0,pi]
+### 2. When omega_c = 0.2*pi
