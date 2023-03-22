@@ -25,4 +25,6 @@ function [H,f] = my_filter(N,Omega_c,Td)
 end
 ```
 ### 1. When omega_c = [0,pi]
+![N](https://github.com/hsieh672/Butterworth-IIR-filter-design/blob/main/imag/N.png)
 ### 2. When omega_c = 0.2*pi
+![N2](https://github.com/hsieh672/Butterworth-IIR-filter-design/blob/main/imag/4_to_20.png)
