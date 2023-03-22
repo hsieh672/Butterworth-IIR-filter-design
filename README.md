@@ -50,8 +50,3 @@ end
 ```
 
 ![tolerance](https://github.com/hsieh672/Butterworth-IIR-filter-design/blob/main/imag/tolerance.png)
-
-|              | FIR                    | IIR                                                   |
-|--------------|------------------------|-------------------------------------------------------|
-| Advantage    | Linear  phase  Stability  | Low implementation cost Low latency Analog equivalent |
-| Disadvantage |                        |                                                       |
