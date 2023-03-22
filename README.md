@@ -53,5 +53,5 @@ end
 
 |              | FIR                    | IIR                                                   |
 |--------------|------------------------|-------------------------------------------------------|
-| Advantage    | Linear phase Stability | Low implementation cost Low latency Analog equivalent |
+| Advantage    | Linear  phase  Stability  | Low implementation cost Low latency Analog equivalent |
 | Disadvantage |                        |                                                       |
