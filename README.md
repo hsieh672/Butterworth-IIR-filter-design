@@ -28,3 +28,6 @@ end
 ![N](https://github.com/hsieh672/Butterworth-IIR-filter-design/blob/main/imag/N.png)
 ### 2. When omega_c = 0.2*pi
 ![N2](https://github.com/hsieh672/Butterworth-IIR-filter-design/blob/main/imag/4_to_20.png)
+
+# Modify a function	to return the appropriate order N automatically	by the given omega_c
+I used “my_butterworth” function to find N and then used “my_filter” function to get the results of the filter automatically
